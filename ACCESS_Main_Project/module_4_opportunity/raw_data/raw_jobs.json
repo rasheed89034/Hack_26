@@ -1,72 +1,72 @@
 [
     {
-        "title": "AI/ML Intern",
+        "title": "Cyber Security Intern",
         "company": "Microsoft",
-        "description": "Work on machine learning models and contribute to the development of AI-powered products.",
-        "link": "https://www.linkedin.com/jobs/view/1234567890/",
+        "description": "Work on security solutions to protect customers from cyber threats. Collaborate with engineers to design and implement security protocols.",
+        "link": "https://www.linkedin.com/jobs/view/1234567890",
         "published_at": "Recent"
     },
     {
-        "title": "Computer Vision Hackathon",
+        "title": "Hackathon: Cyber Security Challenge",
         "company": "Lablab.ai",
-        "description": "Participate in a hackathon to develop innovative computer vision solutions using Python and AI.",
-        "link": "https://lablab.ai/hackathons/computer-vision",
+        "description": "Participate in a hackathon to develop innovative cyber security solutions. Win prizes and recognition for your work.",
+        "link": "https://lablab.ai/hackathons/cyber-security-challenge",
         "published_at": "Recent"
     },
     {
-        "title": "Python Developer Intern",
-        "company": "Internshala",
-        "description": "Work on developing Python applications and contribute to the growth of the company.",
-        "link": "https://internshala.com/internship/python-developer-internship",
+        "title": "Cyber Security Internship",
+        "company": "IBM",
+        "description": "Gain hands-on experience in cyber security by working on real-world projects. Learn from experienced professionals in the field.",
+        "link": "https://www.indeed.com/jobs/view/9876543210",
         "published_at": "Recent"
     },
     {
-        "title": "AI/ML Hackathon 2026",
+        "title": "AI/ML Hackathon: Cyber Security",
         "company": "Devpost",
-        "description": "Participate in a hackathon to develop innovative AI and machine learning solutions using Python.",
-        "link": "https://devpost.com/hackathons/ai-ml-hackathon-2026",
+        "description": "Develop AI/ML solutions to improve cyber security. Compete with other teams to win prizes and recognition.",
+        "link": "https://devpost.com/hackathons/cyber-security-ai-ml",
         "published_at": "Recent"
     },
     {
-        "title": "Data Science Intern",
-        "company": "Indeed",
-        "description": "Work on data science projects and contribute to the development of data-driven products.",
-        "link": "https://www.indeed.com/jobs/view/data-science-intern-1234567890",
+        "title": "Cyber Security Engineer Intern",
+        "company": "Google",
+        "description": "Work on developing security solutions to protect Google's systems and infrastructure. Collaborate with experienced engineers to design and implement security protocols.",
+        "link": "https://www.linkedin.com/jobs/view/5678901234",
         "published_at": "Recent"
     },
     {
-        "title": "Machine Learning Engineer Intern",
-        "company": "LinkedIn",
-        "description": "Work on developing machine learning models and contribute to the growth of the company.",
-        "link": "https://www.linkedin.com/jobs/view/1234567890/",
-        "published_at": "Recent"
-    },
-    {
-        "title": "AI-Powered Chatbot Hackathon",
+        "title": "Hackathon: Cyber Security for AI/ML",
         "company": "MLH",
-        "description": "Participate in a hackathon to develop innovative AI-powered chatbot solutions using Python.",
-        "link": "https://mlh.io/hackathons/ai-powered-chatbot",
+        "description": "Participate in a hackathon to develop innovative cyber security solutions for AI/ML systems. Win prizes and recognition for your work.",
+        "link": "https://mlh.io/hackathons/cyber-security-ai-ml",
         "published_at": "Recent"
     },
     {
-        "title": "Computer Science Intern",
-        "company": "Internshala",
-        "description": "Work on computer science projects and contribute to the growth of the company.",
-        "link": "https://internshala.com/internship/computer-science-internship",
+        "title": "Cyber Security Internship",
+        "company": "Deloitte",
+        "description": "Gain hands-on experience in cyber security by working on real-world projects. Learn from experienced professionals in the field.",
+        "link": "https://www.internshala.com/jobs/view/3456789012",
         "published_at": "Recent"
     },
     {
-        "title": "Natural Language Processing Hackathon",
-        "company": "Lablab.ai",
-        "description": "Participate in a hackathon to develop innovative natural language processing solutions using Python and AI.",
-        "link": "https://lablab.ai/hackathons/natural-language-processing",
+        "title": "AI/ML Hackathon: Cyber Security",
+        "company": "Hackathon.io",
+        "description": "Develop AI/ML solutions to improve cyber security. Compete with other teams to win prizes and recognition.",
+        "link": "https://hackathon.io/hackathons/cyber-security-ai-ml",
         "published_at": "Recent"
     },
     {
-        "title": "Data Analyst Intern",
-        "company": "Indeed",
-        "description": "Work on data analysis projects and contribute to the development of data-driven products.",
-        "link": "https://www.indeed.com/jobs/view/data-analyst-intern-1234567890",
+        "title": "Cyber Security Engineer Intern",
+        "company": "Amazon",
+        "description": "Work on developing security solutions to protect Amazon's systems and infrastructure. Collaborate with experienced engineers to design and implement security protocols.",
+        "link": "https://www.linkedin.com/jobs/view/9012345678",
+        "published_at": "Recent"
+    },
+    {
+        "title": "Hackathon: Cyber Security Challenge",
+        "company": "Cybersecurity Ventures",
+        "description": "Participate in a hackathon to develop innovative cyber security solutions. Win prizes and recognition for your work.",
+        "link": "https://cybersecurityventures.com/hackathons/cyber-security-challenge",
         "published_at": "Recent"
     }
 ]
