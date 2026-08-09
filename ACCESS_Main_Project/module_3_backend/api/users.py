@@ -4,7 +4,7 @@ from fastapi import APIRouter, Depends, HTTPException, status
 from supabase import Client
 
 from database.database import get_supabase
-from models.user import UserCreate, UserRead, UserUpdate
+from .models.user import UserCreate, UserRead, UserUpdate
 
 router = APIRouter(
     prefix="/api/v1/users",
