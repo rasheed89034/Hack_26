@@ -77,6 +77,8 @@ from database.database import get_supabase
 # Import Routers
 from api import users, opportunities, ai_routes
 
+app.include_router(opportunities.router)
+
 app = FastAPI(
     title="ACCESS API",
     description="Core backend and AI Intelligence API.",
@@ -96,7 +98,10 @@ allowed_origins = [
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=allowed_origins,
+    allow_origins=[
+        "http://localhost:5173",
+        "https://access-frontend-6f0m.onrender.com" # 👈 Yeh exact link daalna hai
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
