@@ -77,8 +77,6 @@ from database.database import get_supabase
 # Import Routers
 from api import users, opportunities, ai_routes
 
-app.include_router(opportunities.router)
-
 app = FastAPI(
     title="ACCESS API",
     description="Core backend and AI Intelligence API.",
