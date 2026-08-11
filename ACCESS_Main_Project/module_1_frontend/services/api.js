@@ -27,6 +27,12 @@ export async function getOpportunities() {
     return request('/api/v1/opportunities');
 }
 
+export async function fetchFreshOpportunities(profileKeywords) {
+    return request(`/api/v1/opportunities/scrape-realtime?profile_keywords=${encodeURIComponent(profileKeywords)}`, {
+        method: 'POST'
+    });
+}
+
 /* ─── AI Intelligence Endpoints ─── */
 
 export async function matchOpportunity(userProfile, opportunityDetails) {
