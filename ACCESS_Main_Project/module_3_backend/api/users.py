@@ -7,7 +7,7 @@ import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from database.database import get_supabase
-from api.user import UserCreate, UserRead, UserUpdate
+from .user import UserCreate, UserRead, UserUpdate
 router = APIRouter(
     prefix="/api/v1/users",
     tags=["users"],
