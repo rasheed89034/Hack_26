@@ -1,6 +1,5 @@
 import React, { createContext, useContext, useState, useCallback, useEffect } from 'react';
-import { getOpportunities } from '../services/api';
-
+import { getOpportunities, fetchFreshOpportunities } from '../services/api';
 const AppContext = createContext(null);
 
 /* Sample opportunities for demo — replace with Supabase data later */
@@ -155,11 +154,9 @@ export function AppProvider({ children }) {
             const kw = keywords ||
                 `${profile.major} ${profile.skills.join(' ')} ${profile.interests.join(' ')}`.trim() ||
                 'internship hackathon fellowship';
-            const res = await fetch(
-                `/api/v1/opportunities/scrape-realtime?profile_keywords=${encodeURIComponent(kw)}`,
-                { method: 'POST' }
-            );
-            const json = await res.json();
+            
+            const json = await fetchFreshOpportunities(kw);
+
             // Wait a beat then refresh
             await new Promise(r => setTimeout(r, 600));
             fetchOpps();
