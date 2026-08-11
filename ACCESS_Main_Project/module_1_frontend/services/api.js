@@ -4,9 +4,14 @@ const API_BASE = import.meta.env.VITE_API_BASE_URL || '';
 
 async function request(endpoint, options = {}) {
     const url = `${API_BASE}${endpoint}`;
+    const { headers, ...restOptions } = options; // Extract headers safely
+
     const res = await fetch(url, {
-        headers: { 'Content-Type': 'application/json', ...options.headers },
-        ...options,
+        headers: { 
+            'Content-Type': 'application/json', 
+            ...headers 
+        },
+        ...restOptions, // Spread the rest without overwriting headers
     });
 
     if (!res.ok) {
@@ -19,7 +24,7 @@ async function request(endpoint, options = {}) {
 
 /* ─── Opportunity Endpoints ─── */
 export async function getOpportunities() {
-    return request('/api/v1/opportunities');
+    return request('/api/v1/opportunities/');
 }
 
 /* ─── AI Intelligence Endpoints ─── */
