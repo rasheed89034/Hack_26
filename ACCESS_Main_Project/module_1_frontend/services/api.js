@@ -24,7 +24,7 @@ async function request(endpoint, options = {}) {
 
 /* ─── Opportunity Endpoints ─── */
 export async function getOpportunities() {
-    return request('/api/v1/opportunities/');
+    return request('/api/v1/opportunities');
 }
 
 /* ─── AI Intelligence Endpoints ─── */
