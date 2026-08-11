@@ -5,6 +5,8 @@ from pydantic import BaseModel
 from fastapi import APIRouter, Depends, HTTPException, status
 # pyrefly: ignore [missing-import]
 from supabase import Client
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from database.database import get_supabase
 from models.opportunity import OpportunityCreate, OpportunityRead, OpportunityUpdate
