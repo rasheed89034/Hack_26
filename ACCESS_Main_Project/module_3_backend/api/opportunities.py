@@ -9,7 +9,7 @@ import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from database.database import get_supabase
-from models.opportunity import OpportunityCreate, OpportunityRead, OpportunityUpdate
+from .opportunity import OpportunityCreate, OpportunityRead, OpportunityUpdate
 
 router = APIRouter(
     prefix="/api/v1/opportunities",
